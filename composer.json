@@ -1,0 +1,28 @@
+{
+    "name": "marshmallow/nova-fields-size",
+    "description": "This Nova field type will show bites in MB, GB or whatever you need it to.",
+    "keywords": ["marshmallow", "nova", "nova size field", "size field"],
+    "homepage": "https://github.com/Marshmallow-Development/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef",
+            "email": "stef@marshmallow.dev",
+            "homepage": "https://marshmallow.dev",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "stef@marshmallow.dev"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marshmallow\\Nova\\Fields\\Size\\": "src"
+        }
+    }
+}
